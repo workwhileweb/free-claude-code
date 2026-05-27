@@ -1,0 +1,29 @@
+https://github.com/Alishahryar1/free-claude-code
+
+
+NVIDIA_NIM_API_KEY="nvapi-your-key"
+
+$env:ANTHROPIC_AUTH_TOKEN="freecc"; $env:ANTHROPIC_BASE_URL="http://localhost:8082"; claude
+
+set "ANTHROPIC_AUTH_TOKEN=freecc" && set "ANTHROPIC_BASE_URL=http://localhost:8082" && claude
+
+
+https://platform.deepseek.com/api_keys
+
+https://api-docs.deepseek.com/quick_start/pricing/
+
+https://platform.deepseek.com/top_up
+https://checkout.antom.com
+
+
+uv run uvicorn server:app --host 0.0.0.0 --port 8082
+
+
+Free Claude Code là một repo cho phép bạn chạy Claude Code mà không tốn phí bằng cách tận dụng API của NVIDIA.
+https://www.facebook.com/groups/2403721346759140/?multi_permalinks=2439049686559639&hoisted_section_header_type=recently_seen
+
+- Cài Claude Code: npm install -g @anthropic-ai/claude-code
+- Lấy API key từ NVIDIA
+- Clone repo proxy và cấu hình file .env
+- Chạy proxy tại localhost:8082
+- Thiết lập biến môi trường ANTHROPIC_BASE_URL để trỏ Claude Code về proxy
